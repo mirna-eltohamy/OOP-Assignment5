@@ -28,3 +28,11 @@
 //tArabic.Greet();
 #endregion
 
+#region p1q3
+//shallow copy 
+//creates new object with same values but for reference types ref is copied - no new object
+//deep copy
+//creates new object with same values but for reference types new object is created and values are copied - no shared references
+//So, if object is immutable shallow copy is fine but otherwise deep copy is used
+//Risk with shallow copy with reference types is that changes are refleted in both objects -original and copy - due to shared reference
+#endregion
