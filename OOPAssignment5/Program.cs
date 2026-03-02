@@ -36,3 +36,10 @@
 //So, if object is immutable shallow copy is fine but otherwise deep copy is used
 //Risk with shallow copy with reference types is that changes are refleted in both objects -original and copy - due to shared reference
 #endregion
+
+#region p1q4
+//Dev - Testing
+//QA - Testing
+//Title is string type - immutable - so each string is new object
+//Dept is Department type - mutable - reference copied -  same object shared - changes reflect in both original and copy Employee
+#endregion
